@@ -1,0 +1,30 @@
+*{
+
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  float: left;
+  width: 20%;
+}
+article{
+  display: flex;
+  justify-content: center;
+  float: left;
+  width: 60%;
+}
+aside{
+  float: left;
+  width: 20%;
+}
+
+footer{
+display: flex;
+justify-content: center;
+float: left;
+width: 100%;
+}
