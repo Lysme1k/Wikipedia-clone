@@ -11,7 +11,8 @@ header{
 nav{
   float: left;
   width: 20%;
-  background-color: white;
+  background-color: blue;
+  height: 300px;
 }
 article{
   display: flex;
@@ -23,7 +24,7 @@ article{
 aside{
   float: left;
   width: 20%;
-  background-color: white;
+  background-color: blue;
 }
 
 footer{
