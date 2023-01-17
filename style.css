@@ -1,36 +1,32 @@
 *{
-
+  font-size: 16px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-header{
-  display: flex;
-  justify-content: center;
-  background-color: green;
-}
-
-nav{
-  float: left;
-  width: 20%;
-  background-color: blue;
-  height: 300px;
-}
-article{
-  display: flex;
-  justify-content: center;
-  float: left;
-  width: 60%;
-  background-color: red;
-}
-aside{
-  float: left;
-  width: 20%;
-  background-color: blue;
-}
-
-footer{
-display: flex;
-justify-content: center;
-float: left;
+.container{
 width: 100%;
+margin: auto;
+display: grid;
+
+grid-template-columns: 1fr 4fr;
+grid-template-rows: 100px 500px;
+}
+
+.header{
+background-color: red;
+grid-row: 1 / 1;
+grid-column: 1 / 3;
+}
+
+.nav{
 background-color: green;
+}
+
+.content{
+background-color: black;
+}
+
+.footer{
+background-color: yellow;
 }
