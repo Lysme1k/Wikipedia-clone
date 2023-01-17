@@ -5,21 +5,25 @@
 header{
   display: flex;
   justify-content: center;
+  background-color: green;
 }
 
 nav{
   float: left;
   width: 20%;
+  background-color: white;
 }
 article{
   display: flex;
   justify-content: center;
   float: left;
   width: 60%;
+  background-color: red;
 }
 aside{
   float: left;
   width: 20%;
+  background-color: white;
 }
 
 footer{
@@ -27,4 +31,5 @@ display: flex;
 justify-content: center;
 float: left;
 width: 100%;
+background-color: green;
 }
